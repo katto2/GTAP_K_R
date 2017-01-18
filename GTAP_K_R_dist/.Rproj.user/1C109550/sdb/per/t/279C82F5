@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1472479282303.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "279C82F5",
+    "lastKnownWriteTime" : 21392300099829876,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "84l7p1tzx9",
+        "caption" : "Rcoef",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Rcoef&cache_key=84l7p1tzx9",
+        "displayedObservations" : 18,
+        "environment" : "",
+        "object" : "Rcoef",
+        "totalObservations" : 18,
+        "variables" : 9
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

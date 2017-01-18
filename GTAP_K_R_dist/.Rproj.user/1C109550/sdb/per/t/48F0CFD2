@@ -1,0 +1,17 @@
+{
+    "contents" : "#master file\n#setwd(\"./GTAP_K_R\")\n#execution\nsource(\"Agg/IOT/Dataload.r\")#load IO (csv=> rdata)\nsource(\"Agg/IOT/IOimport.r\")#Add names/construct scrap in  scrap out \nsource(\"Energy_Estimation/EnergyIO.r\")# Energy IO\nsource(\"Emissions_Estimation/GHG_fuel.r\") #GHG IO: fuel use\nsource(\"Emissions_Estimation/GHG_proc.r\") #GHG IO: process \n\n#Write GHG_IO, Energy_IO\nt=2010\n\nwrite.csv(Emit_Dir0, file=paste(paste(\"GIO\",t,sep=\"_\"),\"csv\",sep=\".\"))\nwrite.csv(Emit_Dir0_FinD, file=paste(paste(\"GIO_FD\",t,sep=\"_\"),\"csv\",sep=\".\"))\nwrite.csv(Emit_Prcs,file=paste(paste(\"GHG_p\",t,sep=\"_\"),\"csv\",sep=\".\"))\nwrite.csv(IOT_energy,file=paste(paste(\"EIO\",t,sep=\"_\"),\"csv\",sep=\".\"))\nwrite.csv(IOT_energy_FinD,file=paste(paste(\"EIO_FD\",t,sep=\"_\"),\"csv\",sep=\".\"))\n#setwd(\"../\")",
+    "created" : 1472437570188.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2412951756",
+    "id" : "48F0CFD2",
+    "lastKnownWriteTime" : 1472437287,
+    "path" : "C:/work_2016/0000_Hybrid_2nd/CGE/SAM/GTAP_K_R/GTAP_K_R_dist/GTAP_K_R_ind.r",
+    "project_path" : "GTAP_K_R_ind.r",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
