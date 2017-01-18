@@ -1,5 +1,5 @@
 #master file
-setwd("./GTAP_K_R")
+#setwd("./GTAP_K_R")
 #execution
 source("Agg/IOT/Dataload.r")#load IO (csv=> rdata)
 source("Agg/IOT/IOimport.r")#Add names/construct scrap in  scrap out 
@@ -21,4 +21,4 @@ IOT_E_FinD[,(2:(dim(IOT_E_FinD)[2]-1))]=IOT_energy_FinD[,(2:(dim(IOT_E_FinD)[2]-
 IOT_E_FinD[,(dim(IOT_E_FinD)[2])]=IOT_energy_FinD[,(dim(IOT_E_FinD)[2])]
 
 write.csv(IOT_E_FinD,file=paste(paste("EIO_FD",t,sep="_"),"csv",sep="."))
-setwd("../")
+#setwd("../")
